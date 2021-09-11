@@ -1,3 +1,5 @@
+/* COMMONS */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +16,7 @@ nav, footer {
     align-items: center;  
 }
 
-.nav-brand, .nav-link, .footer-brand, .footer-link {
+.nav-brand, .nav-link, .footer-brand, .footer-link, .nav-toggler {
     color: white;
 }
 
@@ -28,15 +30,51 @@ nav, footer {
     text-transform: uppercase;
 }
 
+.active {
+    font-weight: bolder !important;
+}
+
+.hide {
+    display: none;
+}
+
+
 /* NAVBAR */
 
 nav {
     height: 54px;
     padding: 0 1rem;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
     position: fixed;
     width: 100%;
     z-index: 999;
+    transition: display .2s;
+}
+
+.nav-brand {
+    flex-grow: 1;
+    height: 54px;
+    line-height: 54px;
+}
+
+.nav-brand-link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link {
+    transition: border .1s ease-in;
+    height: 43px;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid white;
+}
+
+.nav-toggler {
+    display: none;
 }
 
 
@@ -48,7 +86,7 @@ section {
 }
 
 .hero {
-    background-image: url('../img/viajero.jpg');
+    /* background-image: url('../img/viajero.jpg'); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,3 +144,25 @@ footer {
     font-size: 2rem;
 }
 
+@media (max-width: 475px) {
+
+    nav {
+        height: auto;
+    }
+
+    .nav-toggler {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .nav-link {
+        display: inline-block;
+        margin: 0 auto;
+    }
+    
+}
