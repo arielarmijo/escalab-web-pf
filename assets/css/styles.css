@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+nav, footer {
+    background-color: darkmagenta;
+    display: flex;
+    align-items: center;  
+}
+
+.nav-brand, .nav-link, .footer-brand, .footer-link {
+    color: white;
+}
+
+.nav-link, .footer-link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 5px;
+}
+
+.nav-brand, .footer-brand {
+    text-transform: uppercase;
+}
+
+/* NAVBAR */
+
+nav {
+    height: 54px;
+    padding: 0 1rem;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+
+/* SECTIONS */
+
+section {
+    padding-top: 54px;
+    height: 100vh;
+}
+
+.hero {
+    background-image: url('/assets/img/viajero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.quote {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, .3);
+    color: #efecec;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    position: relative;
+    top: 10%;
+}
+
+.quote-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quote-footer {
+    display: block;
+    margin-top: .25rem;
+    text-align: right;
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.quote-footer::before {
+    content: "— ";
+}
+
+.section-header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+.section-line {
+    margin: 0 auto;
+    width: 15%;
+    border-top: 1px solid gray;
+}
+
+
+/* FOOTER */
+
+footer {
+    justify-content: space-evenly;
+}
+
+.footer-link {
+    font-size: 2rem;
+}
+
