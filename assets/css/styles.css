@@ -112,6 +112,10 @@ section {
     border-top: 1px solid gray;
 }
 
+.section-body {
+    padding: 2rem;
+    position: relative;
+}
 
 /* FOOTER */
 

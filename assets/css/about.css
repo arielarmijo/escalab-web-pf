@@ -1,0 +1,54 @@
+#sobre-mi > .section-body > h4 {
+    text-align: center;
+    font-size: x-large;
+}
+
+#sobre-mi > .section-body > p {
+
+    padding: 1rem 1rem 2rem;
+}
+
+#sobre-mi > .section-body > img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-height: 50vh;
+    border-radius: 5px;
+}
+
+.about-aside {
+    margin: 0 1rem;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* transform: rotate(90deg); */
+}
+
+.about-aside span {
+    padding: 0 0 .5rem;
+    writing-mode: vertical-lr;
+}
+
+.about-aside a {
+    font-size: 1.25rem;
+    padding: 5px 5px 0;
+}
+
+@media (max-width: 640px) {
+
+    .about-aside {
+        margin: .75rem 0 0;
+        position: static;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    .about-aside span {
+        padding: 0 .5rem 0 0;
+        writing-mode: horizontal-tb;
+    }
+
+}
