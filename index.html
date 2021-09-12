@@ -7,6 +7,8 @@
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/hero.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
 </head>
 <body>
     
@@ -19,7 +21,7 @@
             <i class="fas fa-times hide"></i>
         </div>
         <div class="nav-links">
-            <a href="#sobre-mi" class="nav-link">Sobre mi</a>
+            <a href="#sobre-mi" class="nav-link">Sobre mí</a>
             <a href="#experiencia" class="nav-link">Experiencia</a>
             <a href="#trabajos" class="nav-link">Trabajos</a>
             <a href="#contacto" class="nav-link">Contacto</a>
@@ -27,7 +29,7 @@
     </nav>
 
     <section class="hero">
-        <blockquote class="quote">
+        <blockquote id="quote" class="quote">
             <p class="quote-body">Todo lo que escuchamos es una opinión, no un hecho. Todo lo que vemos es una perspectiva, no es la verdad.</p>
             <a href="https://www.ofrases.com/autor/461-marco-aurelio" class="quote-footer" target="_blank">Marco Aurelio</a>
         </blockquote>
@@ -51,6 +53,13 @@
     <section id="contacto">
         <h2 class="section-header">Contacto</h2>
         <hr class="section-line">
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Nombre">
+            <input type="text" name="email" placeholder="Email">
+            <input type="text" name="subject" placeholder="Asunto">
+            <textarea name="message" placeholder="Mensaje"></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
     </section>
 
     <footer>
@@ -62,7 +71,20 @@
         </div>
     </footer>
 
+    <div id="modal" class="modal hide">
+        <div class="modal-content">
+            <div class="modal-close">
+                <i id="modal-close-icon" class="fas fa-times"></i>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+                <button id="modal-close-button" class="btn">Ok</button>
+            </div>
+        </div>
+    </div>
+
     <script src="./assets/js/nav-menu.js"></script>
+    <script src="./assets/js/modal.js"></script>
 
 </body>
 </html>

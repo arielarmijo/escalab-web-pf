@@ -2,7 +2,7 @@
 const navLinks = document.querySelector('.nav-links');
 const menuOpenIcon = document.querySelector('.fas.fa-bars');
 const menuCloseIcon = document.querySelector('.fas.fa-times');
-const mediaQuery = window.matchMedia('(max-width: 475px)');
+const mediaQuery = window.matchMedia('(max-width: 525px)');
 
 let isMenuOpen = false;
 let previousLink;

@@ -1,0 +1,38 @@
+.hero {
+    background-image: url('../img/viajero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    height: 100vh;
+}
+
+.quote {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, .3);
+    color: #efecec;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    position: relative;
+    top: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quote-body {
+    font-style: oblique;
+}
+
+.quote-footer {
+    display: block;
+    margin-top: .25rem;
+    text-align: right;
+    color: #6c757d;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.quote-footer::before {
+    content: "— ";
+}
