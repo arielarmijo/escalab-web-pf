@@ -1,0 +1,75 @@
+#experiencia .section-body {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1.5rem;
+    text-align: center;
+    
+}
+
+.experience-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: all .2s ease-in-out;
+}
+
+.experience-item:hover {
+    transform: scale(1.05);
+}
+
+.experience-logo {
+    margin-top: 1rem;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.experience-place {
+    margin: 1rem;
+}
+
+.experience-course {
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.experience-time {
+    margin: 1rem;
+    font-weight: lighter;
+}
+
+@media (min-width: 425px) {
+
+    #experiencia .section-body {
+        gap: 1.5rem;
+    }
+
+    .experience-item {
+        width: 45%;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .experience-item {
+        width: 30%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .experience-item {
+        width: 20%;
+    }
+
+    .experience-logo {
+        width: 90%;
+        
+    }
+}
+
+
