@@ -18,6 +18,8 @@
     position: relative;
     top: 10%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0;
+    transition: opacity 225ms ease-in-out;
 }
 
 .quote-body {
@@ -35,4 +37,8 @@
 
 .quote-footer::before {
     content: "— ";
+}
+
+.fade {
+    opacity: 1;
 }
