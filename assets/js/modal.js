@@ -5,13 +5,14 @@ const modalCloseButton = document.getElementById('modal-close-button');
 const contactForm = document.getElementById('contact-form');
 
 const closeModal = (event) => {
-    modal.style.display = 'none';
     contactForm.reset();
+    modal.style.display = 'none';
 };
 
 contactForm.addEventListener('submit', event => {
     event.preventDefault();
-    modalBody.innerHTML = `<p>Mensaje enviado</p>`;
+    const name = contactForm.name.value;
+    modalBody.innerHTML = `<p>${name}, tu mensaje ha sido enviado.</p>`;
     modal.style.display = 'block';
 });
 

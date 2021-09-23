@@ -135,6 +135,7 @@ footer {
 /* MODAL */
 .modal {
     position: fixed;
+    overflow-y: scroll;
     z-index: 2;
     top: 0;
     left: 0;
@@ -155,15 +156,15 @@ footer {
     text-align: center;
     background-color: white;
     border-radius: 5px;
-    width: 75%;
+    width: 95%;
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 10% auto;
+
 }
 
 .modal-body {
     padding: 0 1rem 1rem;
+    
 }
 
 .modal-footer .btn {
@@ -171,6 +172,13 @@ footer {
 }
 
 /* MEDIA QUERIES */
+
+@media (min-width: 425px) {
+    .modal-content {
+        width: 75%;
+    
+    }
+}
 
 @media (max-width: 550px) {
 

@@ -70,10 +70,10 @@
         <h2 class="section-header">Contacto</h2>
         <hr class="section-line">
         <form id="contact-form">
-            <input type="text" name="name" placeholder="Nombre">
-            <input type="text" name="email" placeholder="Email">
-            <input type="text" name="subject" placeholder="Asunto">
-            <textarea name="message" placeholder="Mensaje"></textarea>
+            <input type="text" name="name" placeholder="Nombre" required>
+            <input type="text" name="email" placeholder="Email" required pattern="[\w\-\.]+@([\w\-]+\.)[\w-]{2,4}" title="Ingresa una dirección de correo válida">
+            <input type="text" name="subject" placeholder="Asunto" required>
+            <textarea name="message" placeholder="Mensaje" required></textarea>
             <button type="submit" class="btn">Enviar</button>
         </form>
     </section>
