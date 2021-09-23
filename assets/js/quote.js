@@ -15,6 +15,6 @@ setInterval(() => {
             blockquote.classList.add('fade');
         }, 255);
     });
-}, 300000);
+}, 30000);
 
 

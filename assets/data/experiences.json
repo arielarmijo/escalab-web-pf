@@ -1,24 +1,24 @@
 [
     {
-        "logo": "./assets/img/td-logo.png",
+        "logo": "./assets/img/experiences/td-logo.png",
         "place": "Talento Digital",
         "course": "Desarrollo aplicaciones Fullstack java",
         "time": "2020"
     },
     {
-        "logo": "./assets/img/recoders-logo.png",
+        "logo": "./assets/img/experiences/recoders-logo.png",
         "place": "@Recoders",
         "course": "Hackathon",
         "time": "2021"
     },
     {
-        "logo": "./assets/img/escalab-logo.png",
+        "logo": "./assets/img/experiences/escalab-logo.png",
         "place": "Escalab",
         "course": "Desarrollo Web",
         "time": "2021"
     },
     {
-        "logo": "./assets/img/alkemy-logo.jpeg",
+        "logo": "./assets/img/experiences/alkemy-logo.jpeg",
         "place": "Alkemy Labs",
         "course": "Aceleración Java",
         "time": "2021"

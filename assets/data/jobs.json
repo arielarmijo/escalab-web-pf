@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Calculdadora",
+        "image": "./assets/img/jobs/calculadora.png",
+        "description": "Calculadora sencilla que imita el funcionamiento de la calculadora Casio SL-797LT. Esta aplicación se hizo utilizando HTML, CSS y JavaScript. Corresponde a la solución de una actividad propuesta por el Bootcamp Desarrollo de Aplicaciones Full Stack Java.",
+        "web": "https://arielarmijo.github.io/fullstackjava/mod3/act11/",
+        "github": "https://github.com/arielarmijo/fullstackjava/tree/master/mod3/act11"
+    },
+    {
+        "name": "Súper Pelis",
+        "image": "./assets/img/jobs/cine.png",
+        "description": "La página representa una sala de cine en la cual se pueden elegir los asientos a comprar. A finalizar la selección de asientos, la página entrega el total a pagar según la película elegida. Solución a una actividad propuesta en el bootcamp Desarollo de Aplicaciones Full Stack Java.",
+        "web": "https://arielarmijo.github.io/fullstackjava/mod3/act16/",
+        "github": "https://github.com/arielarmijo/fullstackjava/tree/master/mod3/act16"
+    },
+    {
+        "name": "Billete Seguro",
+        "image": "./assets/img/jobs/billete-seguro.png",
+        "description": "La aplicación es un conversor de monedas que toma los valores de cambio desde la api de mindicador.cl Esta aplicación corresponde a una actividad propuesta del bootcamp Desarrollo de Aplicaciones Full Stack Java.",
+        "web": "https://arielarmijo.github.io/fullstackjava/mod3/act10/",
+        "github": "https://github.com/arielarmijo/fullstackjava/tree/master/mod3/act10"
+    },
+    {
+        "name": "Minimarket deTodo",
+        "image": "./assets/img/jobs/minimarket-detodo.png",
+        "description": "La página implementa un carrito de compra y validación de formularios. También muestra indicadores económicos obtenidos de a página mindicador.cl Corresponde a la solución de un ejercicio del bootcamp Desarrollo de Aplicaciones Fullstack Java. La página está hecha solamente con HTML, CSS y JavaScript.",
+        "web": "https://arielarmijo.github.io/fullstackjava/mod3/act14/carrito.html",
+        "github": "https://github.com/arielarmijo/fullstackjava/tree/master/mod3/act14"
+    },
+    {
+        "name": "Buenas Vacaciones",
+        "image": "./assets/img/jobs/buenas-vacaciones.png",
+        "description": "Página del SPA Buenas Vacaciones. Aplica componentes de Bootstrap. Solución a actividad propuesta en el bootcamp Desarrollo de Aplicaciones Full Stack Java.",
+        "web": "https://arielarmijo.github.io/fullstackjava/mod3/act05/index.html",
+        "github": "https://github.com/arielarmijo/fullstackjava/tree/master/mod3/act05"
+    },
+    {
+        "name": "Los Erens",
+        "image": "./assets/img/jobs/los-erens.png",
+        "description": "Evaluación final del módulo 3 del bootcamp Desarrollo de Aplicaciones Full Stack Java. La página consiste en un formulario que registra una orden de compra para un lavado de autos ficticio. El formulario cuenta con validación de campos utilizando JavaScript y Bootstrap.",
+        "web": "https://arielarmijo.github.io/fullstackjava/mod3/eval2/orden-trabajo.html",
+        "github": "https://github.com/arielarmijo/fullstackjava/tree/master/mod3/eval2"
+    },
+    {
+        "name": "Animales Salvajes",
+        "image": "./assets/img/jobs/animales-salvajes.png",
+        "description": "Registro de animales salvajes para investigación. El formulario de registro permite fijar los atributos básicos de cada animal. El panel de la izquierda muestra los animales en investigación. Por el lado de la programación, se utiliza un diseño orientado a objetos.",
+        "web": "https://arielarmijo.github.io/desafio-latam/M03/U04/P02/solucion/index.html",
+        "github": "https://github.com/arielarmijo/desafio-latam/tree/master/M03/U04/P02"
+    },
+    {
+        "name": "Cachipún",
+        "image": "./assets/img/jobs/cachipun.png",
+        "description": "Juego piedra, papel o tijera.",
+        "web": "https://arielarmijo.github.io/desafio-latam/M02/U01/D02/solucion/index.html",
+        "github": "https://github.com/arielarmijo/desafio-latam/tree/master/M02/U01/D02"
+    }
+]
