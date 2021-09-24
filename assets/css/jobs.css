@@ -63,19 +63,14 @@
     margin-left: .5rem;
 }
 
-@media (min-width: 425px) {
-
-    .modal-job-image {
-        width: auto;
-    }
-
-}
-
-
 @media (min-width: 768px) {
 
     .job-item {
         width: 30%;
+    }
+
+    .modal-job-image {
+        width: auto;
     }
 
 }

@@ -1,5 +1,6 @@
 const modal =  document.getElementById('modal');
-const modalBody = modal.children[0].children[1];
+console.log(modal.children[0].children[0].children[1]);
+const modalBody = modal.children[0].children[0].children[1];
 const modalCloseIcon = document.getElementById('modal-close-icon');
 const modalCloseButton = document.getElementById('modal-close-button');
 const contactForm = document.getElementById('contact-form');
